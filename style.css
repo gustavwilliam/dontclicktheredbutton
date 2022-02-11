@@ -10,7 +10,7 @@ html, body {
 }
 
 .red-button {
-    background-color: orangered;
+    background-color: red;
     border-radius: 5px;
     color: white;
     text-decoration: none;
