@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: white;
 }
 
 .container {
@@ -17,4 +18,10 @@ html, body {
     vertical-align: center;
     padding: 12px;
     font-family: sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #222;
+    }
 }
